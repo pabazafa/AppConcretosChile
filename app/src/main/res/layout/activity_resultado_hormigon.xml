@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultados.ResultadoHormigon">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/config"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/boton_configuracion"
+                android:src="@drawable/configuraciones"
+                tools:ignore="MissingConstraints" />
+            <Space android:layout_width="250dp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/empresa_imagen"
+                android:src="@drawable/empresa"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textViewResulH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/resultados"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/textViewSdcH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-black"
+                android:gravity="end"
+                android:text="@string/sacos_de_cemento"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/ResulSacosH"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="2"
+                android:hint="@string/resultado_cemento"
+                android:textColorHint="@color/gray"
+                android:importantForAutofill="no" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewHormigonH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/cantidad_de_hormigon"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/ResulHormigonH"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="2"
+                android:hint="@string/resultado_hormigon"
+                android:textColorHint="@color/gray"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/m3"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="bottom" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewAguaH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/litros_de_agua"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/ResulAguaH"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="2"
+                android:hint="@string/resultado_agua"
+                android:textColorHint="@color/gray"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/l"
+                android:textSize="20sp"
+                android:layout_marginEnd="10dp"
+                android:textColor="@color/black"
+                android:gravity="bottom" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/nombreGuardarH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/nombre_a_guardar"
+                android:inputType="text"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray"
+                android:gravity = "center"
+                android:importantForAutofill="no" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonGuardarResulH"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="48dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/guardar"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

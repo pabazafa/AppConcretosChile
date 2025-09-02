@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculo.VolumenRectangulo">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/config"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/boton_configuracion"
+                android:src="@drawable/configuraciones"
+                tools:ignore="MissingConstraints" />
+
+            <Space
+                android:layout_width="250dp"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/empresa_imagen"
+                android:src="@drawable/empresa"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/triangular_imagen"
+                android:src="@drawable/rectangular"
+                android:layout_height="200dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/RectAlto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/alto"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:textSize="25sp"
+                android:layout_marginEnd="10sp"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/AltoRectIngresado"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:hint="@string/alto_prisma"
+                android:textColorHint="@color/gray"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m"
+                android:layout_marginEnd="10sp"
+                android:textSize="20sp"
+                android:gravity="bottom" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/RectAncho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/ancho"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:textSize="25sp"
+                android:layout_marginEnd="10sp"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/AnchoRectIngresado"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:hint="@string/ancho_prisma"
+                android:textColorHint="@color/gray"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m"
+                android:layout_marginEnd="10sp"
+                android:textSize="20sp"
+                android:gravity="bottom" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/RectLargo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/largo"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:textSize="25sp"
+                android:layout_marginEnd="10sp"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/LargoRectIngresado"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:hint="@string/largo_prisma"
+                android:textColorHint="@color/gray"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m"
+                android:layout_marginEnd="10sp"
+                android:textSize="20sp"
+                android:gravity="bottom" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btnCalcularRect"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="48dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/calcular"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/tvRectResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/resultado"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:textSize="25sp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/RectResultado"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m"
+                android:layout_marginEnd="10sp"
+                android:textSize="20sp"
+                android:gravity="bottom" />
+            <ImageView
+                android:id="@+id/btnCopiarR"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="10dp"
+                android:gravity="center"
+                android:src="@drawable/copiar"
+                android:contentDescription="@string/copiar" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

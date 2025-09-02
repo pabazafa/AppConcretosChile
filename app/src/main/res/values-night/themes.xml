@@ -1,0 +1,54 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ConcretosChile" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog">
+
+        <item name="android:windowBackground">@android:color/white</item>
+
+
+        <item name="android:textColor">@android:color/black</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+
+        <item name="android:buttonBarButtonStyle">@style/ButtonStyle</item>
+    </style>
+
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/black</item>
+        <item name="android:theme">@style/Material3ButtonStyle</item>
+    </style>
+
+    <!-- Estilo personalizado para los botones con Widget.Material3.Button -->
+    <style name="Material3ButtonStyle" parent="Widget.Material3.Button">
+        <!-- Agrega más configuraciones según sea necesario -->
+    </style>
+
+    <!-- Splash -->
+    <style name="Theme.ConcretosChileSplash" parent="Base.Theme.ConcretosChile"/>
+
+    <style name="Theme.app.ConcretosChileSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icono</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.ConcretosChile</item>
+    </style>
+</resources>

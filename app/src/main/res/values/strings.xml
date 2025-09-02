@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Concretos Chile</string>
+    <string name="triangular">Triangular</string>
+    <string name="seleccione_una_base">SELECCIONE UNA BASE</string>
+    <string name="cilindrica">Cilindrica</string>
+    <string name="rectangular">Rectangular</string>
+    <string name="boton_configuracion">Boton Configuración</string>
+    <string name="empresa_imagen">Empresa_Imagen</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="registro">REGISTRO</string>
+    <string name="m3" tools:ignore="UnusedResources">M3</string>
+    <string name="ingrese_el_volumen" tools:ignore="UnusedResources">Ingrese el volumen:</string>
+    <string name="ingrese_el_tipo_de_concreto_por_palas" tools:ignore="UnusedResources">Ingrese el tipo de concreto por palas:</string>
+    <string name="ingrese_el_peso_del_cemento" tools:ignore="UnusedResources">Ingrese el peso del cemento:</string>
+    <string name="kg" tools:ignore="UnusedResources">Kg</string>
+    <string name="ingrese_el_bulto_en_litros" tools:ignore="UnusedResources">Ingrese el Bulto en litros:</string>
+    <string name="porcentaje" tools:ignore="UnusedResources">%</string>
+    <string name="l" tools:ignore="UnusedResources">L</string>
+    <string name="_5" tools:ignore="UnusedResources">5</string>
+    <string name="ingrese_el_desperdicio_en" tools:ignore="UnusedResources">Ingrese el desperdicio en %:</string>
+    <string name="calcular">Calcular</string>
+    <string name="balde_18_9_l" tools:ignore="UnusedResources">Balde = 18.9 L</string>
+    <string name="el_bulto_en_litros_se_basa_en_el_tama_o_del_recipienta_para_el_agua_que_se_utiliza" tools:ignore="UnusedResources">El bulto en litros se basa en el tamaño del recipienta para el agua que se utiliza</string>
+    <string name="buggy_85_l" tools:ignore="UnusedResources">Buggy = 85 L</string>
+    <string name="observaciones" tools:ignore="UnusedResources">Observaciones:</string>
+    <string name="mantener_sesion_iniciada" tools:ignore="UnusedResources">Mantener sesion iniciada</string>
+    <string name="ingrese_su_usuario" tools:ignore="UnusedResources">Ingrese su Usuario:</string>
+    <string name="ingrese_su_contrase_a">Ingrese su Contraseña:</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="invitado">Invitado</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="ingrese_el_tipo_de_concreto" tools:ignore="UnusedResources">Ingrese el tipo de concreto:</string>
+    <string name="utilizado_para_cuando_usted_sabe_la_cantidad_de_material_que_entra_dentro_de_1_m3_de_concreto" tools:ignore="UnusedResources">Utilizado para cuando usted sabe la cantidad de material que entra dentro de 1 m3 de concreto</string>
+    <string name="concreto_fc_kg_m2">Concreto fc kg/m2</string>
+    <string name="calculos_concreto_fc" tools:ignore="UnusedResources">CALCULOS CONCRETO FC</string>
+    <string name="email">Ingrese su Email:</string>
+    <string name="forgotPassword">¿Olvido su Contraseña?</string>
+    <string name="repeatPassword">Repita su Contraseña:</string>
+    <string name="passwordHint">Mínimo 6 Caracteres</string>
+    <string name="emailHint">correo@gmail.com</string>
+    <string name="login">INICIAR SESION</string>
+    <string name="emailTitle">Email Actual</string>
+    <string name="accountTitle">Cuenta de Usuario</string>
+    <string name="changeEmail">Cambiar Email</string>
+    <string name="changePassword">Cambiar Contraseña</string>
+    <string name="deleteAccount">Eliminar Cuenta</string>
+    <string name="exampleEmail">invitado@correo.com</string>
+    <string name="emailNewTitle">Email Nuevo</string>
+    <string name="confirmEmail">Email</string>
+    <string name="confirmPassword">Contraseña</string>
+    <string name="recoverPassword">Recuperar Contraseña</string>
+    <string name="history">Historial</string>
+    <string name="calculo_en_volumenes">CALCULO EN VOLUMENES</string>
+    <string name="volumen">Volumen:</string>
+    <string name="ingresar_volumen">Ingresar Volumen</string>
+    <string name="peso_del_cemento">Peso del Cemento:</string>
+    <string name="proporci_n">Proporción:</string>
+    <string name="desperdicio">Desperdicio:</string>
+    <string name="calculo_concreto_fc">CALCULO CONCRETO FC</string>
+    <string name="tipo_de_concreto">Tipo de Concreto:</string>
+    <string name="calculo_de_hormig_n">CALCULO DE HORMIGÓN</string>
+    <string name="tipo_de_hormig_n">Tipo de Hormigón:</string>
+    <string name="calculo_por_metrado">CALCULO POR METRADO</string>
+    <string name="ingrese_la_cantidad_para_realizar_1m3_de_concreto">Ingrese la cantidad para realizar 1m3 de concreto</string>
+    <string name="cemento">Cemento:</string>
+    <string name="ingresar_cemento">Ingresar Cemento</string>
+    <string name="arena">Arena:</string>
+    <string name="ingresar_arena">Ingresar Arena</string>
+    <string name="gravilla">Gravilla:</string>
+    <string name="ingresar_gravilla">Ingresar Gravilla</string>
+    <string name="litros_de_agua">Litros de Agua:</string>
+    <string name="ingresar_litros_agua">Ingresar Litros Agua</string>
+    <string name="calculo_de_morteros">CALCULO DE MORTEROS</string>
+    <string name="tipo_de_arena">Tipo de Arena:</string>
+    <string name="captcha_code">CAPTCHA_CODE</string>
+    <string name="ingresa_el_c_digo_de_captcha">Ingresa el Código de Captcha</string>
+    <string name="verificar">Verificar</string>
+    <string name="nombre">Nombre:</string>
+    <string name="nombre1">Nombre</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="compartir">Compartir</string>
+    <string name="resultados">RESULTADOS</string>
+    <string name="fc">FC</string>
+    <string name="concreto_volumenes">Concreto Volumenes</string>
+    <string name="hormigon">Hormigon</string>
+    <string name="morteros">Morteros</string>
+    <string name="metrado_cubico">Metrado Cubico</string>
+    <string name="menu">MENU</string>
+    <string name="perfil">PERFIL</string>
+    <string name="historial">HISTORIAL</string>
+    <string name="inicio">INICIO</string>
+    <string name="terminos_y_condiciones">TERMINOS Y CONDICIONES</string>
+    <string name="cerrar_sesion">CERRAR SESION</string>
+    <string name="correo_gmail_com">correo@gmail.com</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="recuperar_contrase_a">Recuperar Contraseña</string>
+    <string name="sacos_de_cemento">Sacos de Cemento:</string>
+    <string name="cantidad_de_arena">Cantidad de Arena:</string>
+    <string name="cantidad_de_gravilla">Cantidad de Gravilla:</string>
+    <string name="nombre_a_guardar">Nombre a Guardar</string>
+    <string name="guardar">GUARDAR</string>
+    <string name="cantidad_de_hormigon">Cantidad de Hormigon:</string>
+    <string name="cilindro_imagen">Cilindro_Imagen</string>
+    <string name="altura">Altura:</string>
+    <string name="altura_cilindro">Altura Cilindro</string>
+    <string name="m">M</string>
+    <string name="radio">Radio:</string>
+    <string name="radio_cilindro">Radio Cilindro</string>
+    <string name="resultado">Resultado:</string>
+    <string name="copiar">Copiar</string>
+    <string name="triangular_imagen">Triangular_Imagen</string>
+    <string name="alto">Alto:</string>
+    <string name="alto_prisma">Alto Prisma</string>
+    <string name="ancho">Ancho:</string>
+    <string name="ancho_prisma">Ancho Prisma</string>
+    <string name="largo">Largo:</string>
+    <string name="largo_prisma">Largo Prisma</string>
+    <string name="altura_prisma">Altura Prisma</string>
+    <string name="altura_h">Altura(h):</string>
+    <string name="altura_base">Altura Base</string>
+    <string name="base">Base:</string>
+    <string name="base_prisma">Base Prisma</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="resultado_cemento">Resultado Cemento</string>
+    <string name="resultado_arena">Resultado Arena</string>
+    <string name="resultado_gravilla">Resultado Gravilla</string>
+    <string name="resultado_agua">Resultado Agua</string>
+    <string name="resultado_hormigon">Resultado Hormigon</string>
+    <string name="cemento1">Cemento</string>
+    <string name="arena1">Arena</string>
+    <string name="gravilla1">Gravilla</string>
+    <string name="agua1">Agua</string>
+    <string name="hormigon1">Hormigon</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="ingrese_su_correo">Ingrese Su Correo</string>
+    <string name="pol_tica_de_t_rminos_y_condiciones_de_concretoschile">Política de Términos y Condiciones de ConcretosChile</string>
+    <string name="bienvenido_a_concretoschile_el_acceso_a_los_servicios_de_parazonapps_requiere_que_ud_el_usuario_consienta_los_presentes_t_rminos_y_condiciones">Bienvenido a ConcretosChile, el acceso a los servicios de ParazonApps, requiere que Ud., el usuario, consienta los presentes términos y condiciones.</string>
+    <string name="condiciones_de_uso">Condiciones de uso</string>
+    <string name="parrafo_condiciones">El usuario se compromete a utilizar la aplicación de manera legitima, conforme a la legislación vigente, empleando un actuar ético acorde a la buena fe. La infracción a estas condiciones importara la desactivación y desvinculación de la cuenta, sin derecho a reclamo. ParazonApps no se hace responsable de los usos que se les den a los cálculos hechos en la aplicación. El Usuario deberá utilizar los procedimientos y/o medios de seguridad, identificación e integridad que ParazonApps ha implementado o ponga en uso en el futuro, y que pudieren estar asociados a los elementos requeridos para su utilización. Asimismo, ParazonApps podrá efectuar mantenciones a los sistemas que importen una suspensión temporal del servicio, lo que será informado oportunamente por los medios que habitualmente emplea para estos efectos.</string>
+    <string name="c_lculos">Cálculos</string>
+    <string name="calculos_basado">Todos los cálculos son basados en las siguientes tablas:</string>
+    <string name="concreto_f_c">Concreto F\'C</string>
+    <string name="tablafc">tablaFC</string>
+    <string name="concreto_en_volumenes">Concreto en Volumenes</string>
+    <string name="morteros2">Morteros</string>
+    <string name="tablavolumenes">tablavolumenes</string>
+    <string name="tablamorteros">tablamorteros</string>
+    <string name="hormig_n">Hormigón</string>
+    <string name="confidencialidad">Confidencialidad</string>
+    <string name="parrafo_confidencial">ParazonApps declara que ha tomado las medidas necesarias en su sistema que garantice la confidencialidad de los datos ingresados por el Usuario a la aplicación. Ni la aplicación, ni el proveedor guardaran las contraseñas de los usuarios, por lo que será responsabilidad de este el manejo de su contraseña, como también de los medios por los cuales pueda esta reestablecerse en caso de olvido. El usuario podrá solicitar modificar su contraseña, pero para ello va a tener que verificar su correo electrónico. Asimismo, el usuario podrá también solicitar cambiar su email, pero para ello deberá verificar su nuevo email, a su vez se puede retractar de esta acción mediante un enlace que será enviado a su email anterior.</string>
+    <string name="servicios">Servicios</string>
+    <string name="parrafo_servicio">ParazonApps solo va a guardar los cálculos en la nube de los usuarios previamente registrados. El historial de cálculos se va a sincronizar cada vez que el usuario inicie sesión. Los cálculos de los usuarios que ingresen como invitados, es decir, que no se registren en la aplicación, van a ser guardados en una base de datos local en el dispositivo donde se encuentre instalada la aplicación, pero no van a ser guardados en la nube. Los cálculos de la aplicación se van a realizar en base a la tabla de datos que se encuentra en la parte inferior de esta ventana. Si el usuario elimina su cuenta, también se van a eliminar sus cálculos de la nube, esto es irreversible.</string>
+    <string name="tablahormigon">tablahormigon</string>
+</resources>

@@ -1,0 +1,211 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- TextView y EditText para el Nombre -->
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvSacosFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2"
+                android:text="@string/sacos_de_cemento"
+
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/sectionSacosCementoFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:ems="7"
+                android:enabled="false"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:hint="@string/cemento1"
+                android:textColorHint="@color/gray"
+                tools:ignore="TextFields"
+                android:importantForAutofill="no" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tvArenaFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:layout_weight="2"
+                android:gravity="end"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/cantidad_de_arena"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/sectionArenaFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:enabled="false"
+                android:ems="7"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:hint="@string/arena1"
+                android:textColorHint="@color/gray"
+                tools:ignore="TextFields"
+                android:importantForAutofill="no" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m3"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tvgravillaFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2"
+                android:text="@string/cantidad_de_gravilla"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/sectionGravillaFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:enabled="false"
+                android:ems="7"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:hint="@string/gravilla1"
+                android:textColorHint="@color/gray"
+                tools:ignore="TextFields"
+                android:importantForAutofill="no" />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m3"
+                android:layout_marginEnd="10dp"
+                android:textSize="20sp"
+                android:gravity="center"
+
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/tvaguaFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2"
+                android:text="@string/litros_de_agua"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/sectionAguaFC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif-black"
+                android:enabled="false"
+                android:ems="7"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:hint="@string/agua1"
+                android:textColorHint="@color/gray"
+                tools:ignore="TextFields"
+                android:importantForAutofill="no" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/l"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

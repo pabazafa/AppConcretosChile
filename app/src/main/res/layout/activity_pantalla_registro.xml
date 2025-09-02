@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro.PantallaRegistro">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/empresa_imagen"
+                android:src="@drawable/empresa"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registro"
+                android:textSize="50sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/tvRegisterEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/email" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edtRegisterEmail"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/emailHint"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:inputType="textEmailAddress"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:singleLine="true"
+                tools:ignore="LabelFor"
+                android:importantForAutofill="no" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tvNewPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:text="@string/ingrese_su_contrase_a" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtNewPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:scrollHorizontally="true"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:ems="15">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/tvRepeatNewPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:textSize="20sp"
+                android:text="@string/repeatPassword" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/passwordHint"
+                android:inputType="textPassword"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:singleLine="true"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtNewRepeatPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/black"
+                    android:fontFamily="sans-serif-black"
+                    android:scrollHorizontally="true"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:ems="15">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/btnNewRegister"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:text="@string/registrarse"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

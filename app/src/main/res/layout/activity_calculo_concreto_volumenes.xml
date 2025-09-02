@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculo.CalculoConcretoVolumenes">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/config"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/boton_configuracion"
+                android:src="@drawable/configuraciones"
+                tools:ignore="MissingConstraints" />
+            <Space android:layout_width="250dp" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/empresa_imagen"
+                android:src="@drawable/empresa"
+                tools:ignore="MissingConstraints" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/TextViewTítulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/calculo_en_volumenes"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                tools:ignore="MissingConstraints,TextSizeCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/textViewVolumen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/ingrese_el_volumen"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_weight="2"
+                android:layout_marginEnd="10dp"/>
+
+            <EditText
+                android:id="@+id/VolumenCV"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:ems="10"
+                android:hint="@string/ingresar_volumen"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/gray"
+                tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/m3"
+                android:textSize="20sp"
+                 />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewPesoCemento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/peso_del_cemento"
+                android:textSize="20sp"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2" />
+
+            <Spinner
+                android:id="@+id/spinnerPesoCementoCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:layout_weight="0"
+                android:gravity="bottom"
+                android:text="@string/kg"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/textViewTipoConcreto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:text="@string/proporci_n"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/spinnerPalasCV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                tools:ignore="TouchTargetSizeCheck" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:id="@+id/textViewDesperdicio5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:text="@string/desperdicio"
+                android:textSize="20sp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="2"
+                />
+
+            <EditText
+                android:id="@+id/DesperdicioCV"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/black"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="@string/_5"
+                android:textColor="@color/white"
+                android:scrollHorizontally="true"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-black"
+                android:textColor="@color/black"
+                android:text="@string/porcentaje"
+                android:layout_marginEnd="10dp"
+                android:gravity="bottom"
+                android:textSize="20sp"
+                android:layout_weight="0" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnCalcularCV"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="48dp"
+                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/calcular"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCaptcha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="@string/captcha_code" />
+
+    <EditText
+        android:id="@+id/edtCaptchaInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:scrollHorizontally="true"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:inputType="text"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:hint="@string/ingresa_el_c_digo_de_captcha"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btnVerifyCaptcha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:text="@string/verificar" />
+</LinearLayout>

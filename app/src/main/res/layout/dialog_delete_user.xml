@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtConfirmEmail"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:ems="15"
+            android:background="@color/white"
+            android:hint="@string/confirmEmail">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtConfirmPassword"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:fontFamily="sans-serif-black"
+            android:textColorHint="@color/gray"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:hint="@string/confirmPassword">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+
+        android:id="@+id/btnConfirmDelete"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteAccount"
+        android:layout_gravity="center">
+
+    </Button>
+
+</LinearLayout>

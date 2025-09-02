@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Theme.ConcretosChile"
+        tools:targetApi="31">
+        <activity
+            android:name=".Perfil.TerminosCondiciones"
+            android:exported="false" />
+        <activity
+            android:name=".Registro.CaptchaDialog"
+            android:exported="false" />
+        <activity
+            android:name=".Registro.RecuperarPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil.EditarResultado"
+            android:exported="false"
+            android:theme="@style/DialogTheme" />
+        <activity
+            android:name=".Perfil.Historial"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil.PerfilUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".Perfil.Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados.ResultadoMetrado"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados.ResultadoMortero"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados.ResultadoHormigon"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados.ResultadoVolumenes"
+            android:exported="false" />
+        <activity
+            android:name=".Resultados.ResultadoFC"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.VolumenCilindro"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.VolumenTriangular"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.VolumenRectangulo"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.CalculoMetrado"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.CalculoMortero"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.CalculoHormigon"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.CalculoConcretoVolumenes"
+            android:exported="false" />
+        <activity
+            android:name=".Calculo.CalculoFC"
+            android:exported="false" />
+        <activity
+            android:name=".Principales.SeleccionarTipo"
+            android:exported="false" />
+        <activity
+            android:name=".Principales.PantallaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".Registro.PantallaRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".Registro.PantallaInicio"
+            android:exported="true"
+            android:theme="@style/Theme.app.ConcretosChileSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Spinner" tools:ignore="UnusedResources">
+        <item name="android:backgroundTint">#000000</item> <!-- Fondo personalizado -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Color del texto -->
+    </style>
+</resources>
