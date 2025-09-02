@@ -27,5 +27,5 @@ Este proyecto está licenciado bajo los términos de **ParazonApps**. Y sus crea
 ## Instalación y uso
 
 ```bash
-git clone https://github.com/DavidRamirezPlaza-Dev/ConcretosChile.git
-cd ConcretosChile
+git clone https://github.com/pabazafa/AppConcretosChile.git
+cd AppConcretosChile
